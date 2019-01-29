@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29659780216267A300E3D42B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2965977F216267A300E3D42B /* AppDelegate.swift */; };
+		29659782216267A300E3D42B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29659781216267A300E3D42B /* ViewController.swift */; };
+		29659785216267A300E3D42B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29659783216267A300E3D42B /* Main.storyboard */; };
+		29659788216267A300E3D42B /* TareasApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 29659786216267A300E3D42B /* TareasApp.xcdatamodeld */; };
+		2965978A216267A600E3D42B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29659789216267A600E3D42B /* Assets.xcassets */; };
+		2965978D216267A600E3D42B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2965978B216267A600E3D42B /* LaunchScreen.storyboard */; };
+		296597952162686900E3D42B /* ViewControllerDos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296597942162686900E3D42B /* ViewControllerDos.swift */; };
+		296597972162687F00E3D42B /* ViewControllerTareas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 296597962162687F00E3D42B /* ViewControllerTareas.swift */; };
+		33914C7B2163EF0A00595A3A /* Tarea+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33914C792163EF0A00595A3A /* Tarea+CoreDataClass.swift */; };
+		33914C7C2163EF0A00595A3A /* Tarea+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33914C7A2163EF0A00595A3A /* Tarea+CoreDataProperties.swift */; };
+		E4E24699C182B40F1FD80E8F /* Pods_TareasApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA6482AFDD4BD112C66CB617 /* Pods_TareasApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2965977C216267A300E3D42B /* TareasApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TareasApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2965977F216267A300E3D42B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29659781216267A300E3D42B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		29659784216267A300E3D42B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		29659787216267A300E3D42B /* TareasApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TareasApp.xcdatamodel; sourceTree = "<group>"; };
+		29659789216267A600E3D42B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2965978C216267A600E3D42B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2965978E216267A600E3D42B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		296597942162686900E3D42B /* ViewControllerDos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerDos.swift; sourceTree = "<group>"; };
+		296597962162687F00E3D42B /* ViewControllerTareas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTareas.swift; sourceTree = "<group>"; };
+		2965979C2164EAB600E3D42B /* TareasApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TareasApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		33914C792163EF0A00595A3A /* Tarea+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tarea+CoreDataClass.swift"; sourceTree = "<group>"; };
+		33914C7A2163EF0A00595A3A /* Tarea+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Tarea+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		44ED30F8C78D804E12A66BB3 /* Pods-TareasApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TareasApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TareasApp/Pods-TareasApp.debug.xcconfig"; sourceTree = "<group>"; };
+		55C9F6CB7B162A3F08ED588D /* Pods-TareasApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TareasApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-TareasApp/Pods-TareasApp.release.xcconfig"; sourceTree = "<group>"; };
+		FA6482AFDD4BD112C66CB617 /* Pods_TareasApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TareasApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29659779216267A300E3D42B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4E24699C182B40F1FD80E8F /* Pods_TareasApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DD9834C0F286ECA0A305463 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				44ED30F8C78D804E12A66BB3 /* Pods-TareasApp.debug.xcconfig */,
+				55C9F6CB7B162A3F08ED588D /* Pods-TareasApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		29659773216267A300E3D42B = {
+			isa = PBXGroup;
+			children = (
+				2965979C2164EAB600E3D42B /* TareasApp-Bridging-Header.h */,
+				33914C792163EF0A00595A3A /* Tarea+CoreDataClass.swift */,
+				33914C7A2163EF0A00595A3A /* Tarea+CoreDataProperties.swift */,
+				2965977E216267A300E3D42B /* TareasApp */,
+				2965977D216267A300E3D42B /* Products */,
+				0DD9834C0F286ECA0A305463 /* Pods */,
+				C51443014C50E817266596C8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2965977D216267A300E3D42B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2965977C216267A300E3D42B /* TareasApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2965977E216267A300E3D42B /* TareasApp */ = {
+			isa = PBXGroup;
+			children = (
+				2965977F216267A300E3D42B /* AppDelegate.swift */,
+				29659781216267A300E3D42B /* ViewController.swift */,
+				296597942162686900E3D42B /* ViewControllerDos.swift */,
+				296597962162687F00E3D42B /* ViewControllerTareas.swift */,
+				29659783216267A300E3D42B /* Main.storyboard */,
+				29659789216267A600E3D42B /* Assets.xcassets */,
+				2965978B216267A600E3D42B /* LaunchScreen.storyboard */,
+				2965978E216267A600E3D42B /* Info.plist */,
+				29659786216267A300E3D42B /* TareasApp.xcdatamodeld */,
+			);
+			path = TareasApp;
+			sourceTree = "<group>";
+		};
+		C51443014C50E817266596C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA6482AFDD4BD112C66CB617 /* Pods_TareasApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2965977B216267A300E3D42B /* TareasApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29659791216267A600E3D42B /* Build configuration list for PBXNativeTarget "TareasApp" */;
+			buildPhases = (
+				2A336E6C3B1BA4D9C0B7A386 /* [CP] Check Pods Manifest.lock */,
+				29659778216267A300E3D42B /* Sources */,
+				29659779216267A300E3D42B /* Frameworks */,
+				2965977A216267A300E3D42B /* Resources */,
+				A7FA306DBFB445D5420838E4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TareasApp;
+			productName = TareasApp;
+			productReference = 2965977C216267A300E3D42B /* TareasApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29659774216267A300E3D42B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Daniel Cano";
+				TargetAttributes = {
+					2965977B216267A300E3D42B = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 29659777216267A300E3D42B /* Build configuration list for PBXProject "TareasApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29659773216267A300E3D42B;
+			productRefGroup = 2965977D216267A300E3D42B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2965977B216267A300E3D42B /* TareasApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2965977A216267A300E3D42B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2965978D216267A600E3D42B /* LaunchScreen.storyboard in Resources */,
+				2965978A216267A600E3D42B /* Assets.xcassets in Resources */,
+				29659785216267A300E3D42B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2A336E6C3B1BA4D9C0B7A386 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TareasApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7FA306DBFB445D5420838E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TareasApp/Pods-TareasApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MGSwipeTableCell/MGSwipeTableCell.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGSwipeTableCell.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TareasApp/Pods-TareasApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29659778216267A300E3D42B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29659782216267A300E3D42B /* ViewController.swift in Sources */,
+				33914C7C2163EF0A00595A3A /* Tarea+CoreDataProperties.swift in Sources */,
+				33914C7B2163EF0A00595A3A /* Tarea+CoreDataClass.swift in Sources */,
+				29659780216267A300E3D42B /* AppDelegate.swift in Sources */,
+				296597972162687F00E3D42B /* ViewControllerTareas.swift in Sources */,
+				29659788216267A300E3D42B /* TareasApp.xcdatamodeld in Sources */,
+				296597952162686900E3D42B /* ViewControllerDos.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29659783216267A300E3D42B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29659784216267A300E3D42B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2965978B216267A600E3D42B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2965978C216267A600E3D42B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2965978F216267A600E3D42B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29659790216267A600E3D42B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29659792216267A600E3D42B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44ED30F8C78D804E12A66BB3 /* Pods-TareasApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J96BZ9PSBR;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = TareasApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danicano.TareasApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/danielcano/Downloads/TareasApp/TareasApp-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29659793216267A600E3D42B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55C9F6CB7B162A3F08ED588D /* Pods-TareasApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J96BZ9PSBR;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = TareasApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.danicano.TareasApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/danielcano/Downloads/TareasApp/TareasApp-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29659777216267A300E3D42B /* Build configuration list for PBXProject "TareasApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2965978F216267A600E3D42B /* Debug */,
+				29659790216267A600E3D42B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29659791216267A600E3D42B /* Build configuration list for PBXNativeTarget "TareasApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29659792216267A600E3D42B /* Debug */,
+				29659793216267A600E3D42B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		29659786216267A300E3D42B /* TareasApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				29659787216267A300E3D42B /* TareasApp.xcdatamodel */,
+			);
+			currentVersion = 29659787216267A300E3D42B /* TareasApp.xcdatamodel */;
+			path = TareasApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29659774216267A300E3D42B /* Project object */;
+}

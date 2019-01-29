@@ -1,0 +1,16 @@
+PODS:
+  - MGSwipeTableCell (1.6.7)
+
+DEPENDENCIES:
+  - MGSwipeTableCell
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - MGSwipeTableCell
+
+SPEC CHECKSUMS:
+  MGSwipeTableCell: fb20e983988bde2b8d0df29c2d9e1d8ffd10b74a
+
+PODFILE CHECKSUM: f656b06d8071332efdfeb0034656363e10e35b0e
+
+COCOAPODS: 1.5.0

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14135" systemVersion="17G65" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Tarea" representedClassName=".Tarea" syncable="YES">
+        <attribute name="fecha" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="nota" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tarea" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tareaCompletada" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Tarea" positionX="-63" positionY="-18" width="128" height="105"/>
+    </elements>
+</model>
